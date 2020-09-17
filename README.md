@@ -25,3 +25,12 @@ This project was created using a Jupyter Notebook with the following package ver
 * Matplotlib: 3.2.2
 * Tensorflow: 2.1.0
 * Keras: 2.3.1
+
+## Exploratory Data Analysis
+
+I checked the distribution of the test results and the relationships between each of the 3 test scores pairwise. I llooked at the value counts for the various catergorical variables. I analysed the effect of each independent variable on the test scores achieved in turn to determine any underlying relatioships within the data. I explored the relationships between the independent variables. Below are some of the highlights of the EDA.
+
+![alt text](https://github.com/sykes14596/Student_Exam_Results/blob/master/Images/test_scores_pairplot.png "Test Scores Pairplot")
+![alt text](https://github.com/sykes14596/Student_Exam_Results/blob/master/Images/race_v_scores_boxplot.png "Race v Scores Boxplot")
+![alt text](https://github.com/sykes14596/Student_Exam_Results/blob/master/Images/parent_education_countplot.png "Parental Education Countplot")
+
