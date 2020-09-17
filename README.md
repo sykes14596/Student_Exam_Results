@@ -34,3 +34,21 @@ I checked the distribution of the test results and the relationships between eac
 ![alt text](https://github.com/sykes14596/Student_Exam_Results/blob/master/Images/race_v_scores_boxplot.png "Race v Scores Boxplot")
 ![alt text](https://github.com/sykes14596/Student_Exam_Results/blob/master/Images/parent_education_countplot.png "Parental Education Countplot")
 
+## Data Preprocessing
+
+I checked for outliers visually through the use of box plots. I thought of several possible situations that could be considered to be outliers and investigated the students that fell within each of these scenarios. I also made use of the interquartile range method and developed a function that looked for test scores that fell outside of the range [LQ - (1.5 x IQR), UQ + (1.5 x IQR)]. Finally, I converted each of the categorical variables into numerical features thorugh the use of Label Encoding and Dummy Variables.
+
+## Model Building
+
+In total, I attempted to build models to solve three different problems. These problems were:
+
+* Predicting a students' average score - this made the problem into a regression problem.
+* Predicting the score obtained in each of the 3 tests, converting the problem into a Multi Target Regression problem
+* Predicting the grade achieved by each student, making the problem a multi-class classification problem. This problem also required the use of the SMOTE technique to create a balanced dataset.
+
+In the first two problems, I implemented a linear regression model and a deep learning model. Despite a deep learning model not being appropriate for this problem, I chose to implement one in order to practice writing the code required. In the final problem, I implented 3 different models. These models were:
+
+* Logistic Regression,
+* K Nearest Neighbors,
+* Random Forest Classifier.
+
