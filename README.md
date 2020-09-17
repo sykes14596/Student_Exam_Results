@@ -52,3 +52,26 @@ In the first two problems, I implemented a linear regression model and a deep le
 * K Nearest Neighbors,
 * Random Forest Classifier.
 
+## Model Performance
+
+### Problem 1
+
+In this problem, the mean absolute error was used to evaluate model performance. Full results are shown below.
+
+* Linear Regression MAE: 10.1
+* Deep Learning MAE: 10.7
+
+### Problem 2
+
+* Multi Target Linear Regression MAE: 10.5
+* Multi Target Deep Learning MAE: 11.1
+
+### Problem 3
+
+In this problem, the accuracy of each model was analysed. Full results shown below.
+
+* Logistic Regression: 31%
+* K Nearest Neighbors: 39%
+* Random Forest: 40%
+
+Despite the poor performance of the models, this project enabled me to practice my skills and create inventive ways of looking at the problem. 
